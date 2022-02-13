@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_009de883446e4cb9bd9d1ce923cdf9bd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_009de883446e4cb9bd9d1ce923cdf9bd" ></div>
+        
+</body>
+<script>    
+    
+            var map_009de883446e4cb9bd9d1ce923cdf9bd = L.map(
+                "map_009de883446e4cb9bd9d1ce923cdf9bd",
+                {
+                    center: [49.83826, 24.02324],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ee93c0c515af486a826c5f41b54be5d8 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_009de883446e4cb9bd9d1ce923cdf9bd);
+        
+    
+            var marker_fd9384257be64b3ab6e574875ea467df = L.marker(
+                [49.83826, 24.02324],
+                {}
+            ).addTo(map_009de883446e4cb9bd9d1ce923cdf9bd);
+        
+    
+            var icon_2a62c8b996ac4250968e6968ed8186e9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fd9384257be64b3ab6e574875ea467df.setIcon(icon_2a62c8b996ac4250968e6968ed8186e9);
+        
+    
+        var popup_87f6b5e0aaba4ced86a24a4416bd688a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a8d21953e1b04a7f8af1a35be23b03d6 = $(`<div id="html_a8d21953e1b04a7f8af1a35be23b03d6" style="width: 100.0%; height: 100.0%;">You are here!</div>`)[0];
+            popup_87f6b5e0aaba4ced86a24a4416bd688a.setContent(html_a8d21953e1b04a7f8af1a35be23b03d6);
+        
+
+        marker_fd9384257be64b3ab6e574875ea467df.bindPopup(popup_87f6b5e0aaba4ced86a24a4416bd688a)
+        ;
+
+        
+    
+    
+            var feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752 = L.featureGroup(
+                {}
+            ).addTo(map_009de883446e4cb9bd9d1ce923cdf9bd);
+        
+    
+            var circle_marker_cee4056fe0ba44248baa9511ca5dc567 = L.circleMarker(
+                [49.771830246, 24.02333324],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_82cb116750474c5a9dc80db9de883b73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1f5d114f3c846afaf63e6f3d052a5d5 = $(`<div id="html_f1f5d114f3c846afaf63e6f3d052a5d5" style="width: 100.0%; height: 100.0%;">"2012 UEFA European Football Championship"</div>`)[0];
+            popup_82cb116750474c5a9dc80db9de883b73.setContent(html_f1f5d114f3c846afaf63e6f3d052a5d5);
+        
+
+        circle_marker_cee4056fe0ba44248baa9511ca5dc567.bindPopup(popup_82cb116750474c5a9dc80db9de883b73)
+        ;
+
+        
+    
+    
+            var circle_marker_20f8636ec3ea4f41a563194f977e2618 = L.circleMarker(
+                [52.2319581, 21.0067249],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_c327e6561c01493288c268d170a57b9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e3ca75cc24d64a439875e97162191e36 = $(`<div id="html_e3ca75cc24d64a439875e97162191e36" style="width: 100.0%; height: 100.0%;">"07 zglos sie"</div>`)[0];
+            popup_c327e6561c01493288c268d170a57b9a.setContent(html_e3ca75cc24d64a439875e97162191e36);
+        
+
+        circle_marker_20f8636ec3ea4f41a563194f977e2618.bindPopup(popup_c327e6561c01493288c268d170a57b9a)
+        ;
+
+        
+    
+    
+            var circle_marker_fac13b462206432f8b4cfcc8fdd3be1f = L.circleMarker(
+                [52.2319581, 21.0067249],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_5c4832c084814385a34923667a4c7296 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dc41b50ee91b49ffbc1fea847e203390 = $(`<div id="html_dc41b50ee91b49ffbc1fea847e203390" style="width: 100.0%; height: 100.0%;">"1-2-3 Moskau!"</div>`)[0];
+            popup_5c4832c084814385a34923667a4c7296.setContent(html_dc41b50ee91b49ffbc1fea847e203390);
+        
+
+        circle_marker_fac13b462206432f8b4cfcc8fdd3be1f.bindPopup(popup_5c4832c084814385a34923667a4c7296)
+        ;
+
+        
+    
+    
+            var circle_marker_667cba7f6a1046f88cf9533d192164f7 = L.circleMarker(
+                [47.4979937, 19.0403594],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_a5e75a80c5a9467a85ab8d0913bd2191 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8d38bcfe74cc4978a8a73097cbb298a8 = $(`<div id="html_8d38bcfe74cc4978a8a73097cbb298a8" style="width: 100.0%; height: 100.0%;">"#VanLifeAttila"</div>`)[0];
+            popup_a5e75a80c5a9467a85ab8d0913bd2191.setContent(html_8d38bcfe74cc4978a8a73097cbb298a8);
+        
+
+        circle_marker_667cba7f6a1046f88cf9533d192164f7.bindPopup(popup_a5e75a80c5a9467a85ab8d0913bd2191)
+        ;
+
+        
+    
+    
+            var circle_marker_e38d8f17540c4214b47e1bf17a8e9647 = L.circleMarker(
+                [50.433483, 30.521778],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_acc246750e1d457da43b7eca4b52a3bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3411077e524b4f81858ac8a5250ff300 = $(`<div id="html_3411077e524b4f81858ac8a5250ff300" style="width: 100.0%; height: 100.0%;">"2012 UEFA European Football Championship"</div>`)[0];
+            popup_acc246750e1d457da43b7eca4b52a3bd.setContent(html_3411077e524b4f81858ac8a5250ff300);
+        
+
+        circle_marker_e38d8f17540c4214b47e1bf17a8e9647.bindPopup(popup_acc246750e1d457da43b7eca4b52a3bd)
+        ;
+
+        
+    
+    
+            var circle_marker_83de0c2430984fcc8369933f4ba48c3a = L.circleMarker(
+                [50.4500336, 30.5241361],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_5d414bfe56cf4bb8b78909a95f208710 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c9d28ca31cf4f26ac6bcb57ebb26901 = $(`<div id="html_2c9d28ca31cf4f26ac6bcb57ebb26901" style="width: 100.0%; height: 100.0%;">"10 sposobov"</div>`)[0];
+            popup_5d414bfe56cf4bb8b78909a95f208710.setContent(html_2c9d28ca31cf4f26ac6bcb57ebb26901);
+        
+
+        circle_marker_83de0c2430984fcc8369933f4ba48c3a.bindPopup(popup_5d414bfe56cf4bb8b78909a95f208710)
+        ;
+
+        
+    
+    
+            var circle_marker_2e026a199ea94c53a1c0455081ddd11f = L.circleMarker(
+                [54.6870458, 25.2829111],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_38ffb04193194167bafa052124248478 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f283e69866c3410488e544b0ac9e6d3f = $(`<div id="html_f283e69866c3410488e544b0ac9e6d3f" style="width: 100.0%; height: 100.0%;">"1-2-3 Moskau!"</div>`)[0];
+            popup_38ffb04193194167bafa052124248478.setContent(html_f283e69866c3410488e544b0ac9e6d3f);
+        
+
+        circle_marker_2e026a199ea94c53a1c0455081ddd11f.bindPopup(popup_38ffb04193194167bafa052124248478)
+        ;
+
+        
+    
+    
+            var circle_marker_32aa96a162df45f2ac677245fde5eb77 = L.circleMarker(
+                [54.44190905, 18.54309444570447],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_c619521d97a94754a2d6afedbc77c63b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_969a473aee21482eb4611a88321a89e2 = $(`<div id="html_969a473aee21482eb4611a88321a89e2" style="width: 100.0%; height: 100.0%;">"07 zglos sie"</div>`)[0];
+            popup_c619521d97a94754a2d6afedbc77c63b.setContent(html_969a473aee21482eb4611a88321a89e2);
+        
+
+        circle_marker_32aa96a162df45f2ac677245fde5eb77.bindPopup(popup_c619521d97a94754a2d6afedbc77c63b)
+        ;
+
+        
+    
+    
+            var circle_marker_5d5031f83b994edc945e6419fbda16aa = L.circleMarker(
+                [45.8131847, 15.9771774],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_c5c7f68d30b544d58417fe2c8aae8da9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1f85510bdee48deb1b47ecadee32c09 = $(`<div id="html_e1f85510bdee48deb1b47ecadee32c09" style="width: 100.0%; height: 100.0%;">"1-2-3 Istanbul!"</div>`)[0];
+            popup_c5c7f68d30b544d58417fe2c8aae8da9.setContent(html_e1f85510bdee48deb1b47ecadee32c09);
+        
+
+        circle_marker_5d5031f83b994edc945e6419fbda16aa.bindPopup(popup_c5c7f68d30b544d58417fe2c8aae8da9)
+        ;
+
+        
+    
+    
+            var circle_marker_9a4e55aef5fb436eb6b0ab314e631f2e = L.circleMarker(
+                [52.4378932, 13.5475496],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_3dff16a15c2546558d4f31965b7c86f7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3f79282f8bd74e14be3807d59572bb21 = $(`<div id="html_3f79282f8bd74e14be3807d59572bb21" style="width: 100.0%; height: 100.0%;">"1, 2 oder 3"</div>`)[0];
+            popup_3dff16a15c2546558d4f31965b7c86f7.setContent(html_3f79282f8bd74e14be3807d59572bb21);
+        
+
+        circle_marker_9a4e55aef5fb436eb6b0ab314e631f2e.bindPopup(popup_3dff16a15c2546558d4f31965b7c86f7)
+        ;
+
+        
+    
+    
+            var circle_marker_e93f09f1ca1247e2a72096bc17a7837d = L.circleMarker(
+                [56.9493977, 24.1051846],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_2786fb10e2f14230b42f3b8ccac57cf5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa27e32e90cb4ebba00798e79010a3fb = $(`<div id="html_aa27e32e90cb4ebba00798e79010a3fb" style="width: 100.0%; height: 100.0%;">"1-2-3 Moskau!"</div>`)[0];
+            popup_2786fb10e2f14230b42f3b8ccac57cf5.setContent(html_aa27e32e90cb4ebba00798e79010a3fb);
+        
+
+        circle_marker_e93f09f1ca1247e2a72096bc17a7837d.bindPopup(popup_2786fb10e2f14230b42f3b8ccac57cf5)
+        ;
+
+        
+    
+    
+            var circle_marker_03316c18303a4875b09bf8e355b1e7c1 = L.circleMarker(
+                [43.8519774, 18.3866868],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_b87e50f01019483fbc7eadde558d989a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5000a0ac5baa42fc901a21d61fea1e31 = $(`<div id="html_5000a0ac5baa42fc901a21d61fea1e31" style="width: 100.0%; height: 100.0%;">"1-2-3 Istanbul!"</div>`)[0];
+            popup_b87e50f01019483fbc7eadde558d989a.setContent(html_5000a0ac5baa42fc901a21d61fea1e31);
+        
+
+        circle_marker_03316c18303a4875b09bf8e355b1e7c1.bindPopup(popup_b87e50f01019483fbc7eadde558d989a)
+        ;
+
+        
+    
+    
+            var circle_marker_1f2ee477cb5a44bdb5182395b56a69c0 = L.circleMarker(
+                [52.5170365, 13.3888599],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_47eb2e40310642228502cef0651c66ed = L.popup({"maxWidth": "100%"});
+
+        
+            var html_501d3ab488f24712ac10ff336fb903da = $(`<div id="html_501d3ab488f24712ac10ff336fb903da" style="width: 100.0%; height: 100.0%;">"1-2-3 Moskau!"</div>`)[0];
+            popup_47eb2e40310642228502cef0651c66ed.setContent(html_501d3ab488f24712ac10ff336fb903da);
+        
+
+        circle_marker_1f2ee477cb5a44bdb5182395b56a69c0.bindPopup(popup_47eb2e40310642228502cef0651c66ed)
+        ;
+
+        
+    
+    
+            var circle_marker_f228f96087e445f09d79c7dcc6864272 = L.circleMarker(
+                [42.6073975, 25.4856617],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_d1d9f04a3873495e90ba45875f59cd5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d9e1ab1e04f431eb32afad2ca71d9a5 = $(`<div id="html_3d9e1ab1e04f431eb32afad2ca71d9a5" style="width: 100.0%; height: 100.0%;">"10,000 BC"</div>`)[0];
+            popup_d1d9f04a3873495e90ba45875f59cd5a.setContent(html_3d9e1ab1e04f431eb32afad2ca71d9a5);
+        
+
+        circle_marker_f228f96087e445f09d79c7dcc6864272.bindPopup(popup_d1d9f04a3873495e90ba45875f59cd5a)
+        ;
+
+        
+    
+    
+            var circle_marker_97499f36a17f413a9c7d52d04c2b6f46 = L.circleMarker(
+                [46.0499803, 14.5068602],
+                {"bubblingMouseEvents": true, "color": "grey", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(feature_group_70d988d3b7db4b7d9ab87b7a3e9f9752);
+        
+    
+        var popup_983fb7b5b2be428384ef690cdd8b7d24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6a7cb6332f2347b79b73d122ca3d585b = $(`<div id="html_6a7cb6332f2347b79b73d122ca3d585b" style="width: 100.0%; height: 100.0%;">"1-2-3 Istanbul!"</div>`)[0];
+            popup_983fb7b5b2be428384ef690cdd8b7d24.setContent(html_6a7cb6332f2347b79b73d122ca3d585b);
+        
+
+        circle_marker_97499f36a17f413a9c7d52d04c2b6f46.bindPopup(popup_983fb7b5b2be428384ef690cdd8b7d24)
+        ;
+
+        
+    
+</script>
